@@ -5,7 +5,7 @@
 БЭМ, Figma, Grid, Flex, Адаптивная верстка, верстка форм
 
 Проект можно посмотреть по ссылке: 
-https://yansadykov.github.io/mesto-project/
+https://daryamakavchik.github.io/mesto-project-pair/
 
 
 
