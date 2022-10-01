@@ -1,8 +1,7 @@
-.profile__avatar-editbutton{
+.profile__avatar-editbutton {
     width: 100%;
     height: 100%;
     background: rgba(0, 0, 0, 0.8) url('../../../images/edit_btn.svg') center no-repeat;
-    background-size: 30%;
     position: absolute;
     top: 0;
     left: 0;
@@ -12,9 +11,11 @@
     border: none;
   
     transition: all 300ms ease;
-}
-
-.profile__avatar-editbutton:hover{
+  
+    z-index: 100;
+  }
+  
+  .profile__avatar-editbutton:hover {
     opacity: 1;
     z-index: 100;
-}
+  }

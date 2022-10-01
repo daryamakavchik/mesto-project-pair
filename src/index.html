@@ -13,20 +13,28 @@
 
         <main class="content">
             <section class="profile">
-                <div class="profile__overlay">
-                    <img class="profile__avatar" src="" alt="Аватар пользователя" id="profileavatar" />
-                    <button class="profile__avatar-editbutton" id="editprofilepicbutton"></button>
+                <div class="profile__info">
+                  <div class="profile__avatar-overlay">
+                    <img
+                      class="profile__avatar"
+                      src=""
+                      alt="Портретный снимок Жак-Ива Кусто"
+                    />
+                    <button
+                      class="profile__avatar-editbutton"
+                      id="editprofilepicbutton"
+                    ></button>
+                  </div>
+                  <h1 class="profile__title"></h1>
+                  <button type="button" class="profile__edit-btn">
+                    <img src="<%=require('./images/pencil.svg')%>" alt="Карандаш" />
+                  </button>
+                  <p class="profile__subtitle"></p>
                 </div>
-
-                <div class="profile__text">
-                    <div class="profile__info">
-                        <h1 class="profile__title"></h1>
-                        <p class="profile__subtitle"></p>
-                    </div>
-                    <button class="profile__edit-btn" type="button"></button>
-                </div>
-                <button class="profile__photo-add-btn" type="button"></button>
-            </section>
+                <button type="button" class="profile__photo-add-btn">
+                  <img src="<%=require('./images/plus.svg')%>" alt="Знак плюс" />
+                </button>
+              </section>
 
             <section class="cards">
                 <template id="card-template">
