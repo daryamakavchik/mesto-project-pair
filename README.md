@@ -1,26 +1,51 @@
-# Проект: Место
+# "Mesto"
 
----
+#### [GitHub Pages](https://daryamakavchik.github.io/mesto-project-pair/)
+#### [Figma](https://www.figma.com/file/2cn9N9jSkmxD84oJik7xL7/JavaScript.-Sprint-4?node-id=0%3A1)
 
-Адаптивный одностраничный сайт, реализованный в рамках обучения в Яндекс Практикум. Пользователь имеет возможность создавать и удалять карточки, ставить лайки, открывать изображения в полном размере, редактировать информацию профиля. При вводе некорректных данных в поля формы их отправка блокируется. Модальные окна закрываются кликом на оверлей и Escape. При обновлении страницы изменения сохраняются, в случае неудачного запроса на сервер пользователь также получает соответствующее сообщение об ошибке.
 
-https://user-images.githubusercontent.com/90967822/199570456-b2619866-5743-42cb-9d38-680e4f34d969.mp4
+## Description 
+"Mesto" is a portfolio project created as an assignment for [Yandex.Practicum](https://practicum.yandex.com/web/ "Web Development Program"). It is a responsive single-page application, where a user can:
+* create cards
+* delete his own cards
+* like and remove likes
+* open images in full size
+* edit personal account information
 
-Установлен Webpack, Babel, настроена обработка CSS, HTML, изображений и шрифтов. Настроено взаимодействие с сервером Яндекс Практикума. Проект был доработан совместно с @yansadykov.
+If incorrect data is entered, form sending is blocked. Popups are closed by clicking on either the overlay or Escape. When the page is refreshed, the changes are saved, and in case of an unsuccessful request to the server, the user also receives a corresponding error message.
 
-## Стек
+The project was implemented together with @yansadykov.
 
-- HTML
-- CSS
-- JavaScript
-- Webpack
+## Tech Stack
+![HTML](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
+![Babel](https://img.shields.io/badge/Babel-F9DC3E?style=for-the-badge&logo=babel&logoColor=white)
+![WebPack](https://img.shields.io/badge/Webpack-8DD6F9?style=for-the-badge&logo=Webpack&logoColor=white)
 
-## Реализация
+## Implementation
 
 - Flexbox
 - Grid layout
-- Медиа-запросы
-- Файловая структура по правилам БЭМ Nested
+- Media-queries
+- BEM Nested file structure
+  
+## Installation
 
-#### [Ссылка на макет](https://www.figma.com/file/2cn9N9jSkmxD84oJik7xL7/JavaScript.-Sprint-4?node-id=0%3A1)
-#### [Ссылка на сайт](https://daryamakavchik.github.io/mesto-project-pair/)
+```bash
+# Clone the repository
+git clone https://daryamakavchik.github.io/mesto-project-pair/
+# Enter the project directory
+cd mesto-project-pair
+# install dependencies
+npm install
+# build in production
+npm run build
+# start testing the application
+npm run test
+# run the server on localhost:3000
+npm run start
+```
+
+## To Do
+- [ ] translation
