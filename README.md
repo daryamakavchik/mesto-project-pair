@@ -10,7 +10,7 @@
 * delete his own cards
 * like and remove likes
 * open images in full size
-* edit his name, curname and profile image
+* edit his name, surname and profile image
 
 If incorrect data is entered, form sending is blocked. Popups are closed by clicking on either the overlay or Escape. When the page is refreshed, the changes are saved, and in case of an unsuccessful request to the server, the user also receives a corresponding error message.
 
