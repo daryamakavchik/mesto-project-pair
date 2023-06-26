@@ -12,9 +12,9 @@
 * open images in full size
 * edit his name, role and profile image
 
-If incorrect data is entered, form sending is blocked. Popups are closed by clicking on either the overlay or Escape. When the page is refreshed, the changes are saved, and in case of an unsuccessful request to the server, the user also receives a corresponding error message.
+If incorrect data is entered, form sending is blocked. Popups can be closed by clicking on overlay or Escape. Changes are saved after page refresh, and in case of an unsuccessful request to the server, the user receives a corresponding error message.
 
-The project was implemented together with @yansadykov.
+This project was implemented together with @yansadykov.
 
 ## Tech Stack
 ![HTML](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
