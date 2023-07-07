@@ -51,4 +51,4 @@ npm run start
 ```
 
 ## To Do
-- [ ] translation
+- [x] translation
