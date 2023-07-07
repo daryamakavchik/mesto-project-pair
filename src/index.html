@@ -18,7 +18,7 @@
                     <img
                       class="profile__avatar"
                       src=""
-                      alt="Портретный снимок Жак-Ива Кусто"
+                      alt="Jacques-Yves Cousteau's portrait"
                     />
                     <button
                       class="profile__avatar-editbutton"
@@ -27,12 +27,12 @@
                   </div>
                   <h1 class="profile__title"></h1>
                   <button type="button" class="profile__edit-btn">
-                    <img src="<%=require('./images/pencil.svg')%>" alt="Карандаш" />
+                    <img src="<%=require('./images/pencil.svg')%>" alt="Pencil" />
                   </button>
                   <p class="profile__subtitle"></p>
                 </div>
                 <button type="button" class="profile__photo-add-btn">
-                  <img src="<%=require('./images/plus.svg')%>" alt="Знак плюс" />
+                  <img src="<%=require('./images/plus.svg')%>" alt="Plus sign" />
                 </button>
               </section>
 
@@ -57,15 +57,15 @@
         <div class="popup profile-popup">
             <div class="popup__window">
                 <button class="popup__close-btn" type="button"></button>
-                <h2 class="popup__title">Редактировать профиль</h2>
+                <h2 class="popup__title">Edit profile</h2>
                 <form class="form" name="user-info" id="profileform" novalidate>
                     <fieldset class="form__set">
-                        <input class="form__user-info form__input" type="text" name="name" id="username" placeholder="Имя" minlength="2" maxlength="40" required />
+                        <input class="form__user-info form__input" type="text" name="name" id="username" placeholder="Name" minlength="2" maxlength="40" required />
                         <span class="form__input-error username-error" id="username-error"></span>
-                        <input class="form__user-info form__input" type="text" name="description" id="usernameinfo" placeholder="О себе" minlength="2" maxlength="200" required />
+                        <input class="form__user-info form__input" type="text" name="description" id="usernameinfo" placeholder="About" minlength="2" maxlength="200" required />
                         <span class="form__input-error usernameinfo-error" id="usernameinfo-error"></span>
 
-                        <button class="form__save form__submit form__button-submit profilesubmitbutton" id="profilesubmitbutton" type="submit">Сохранить</button>
+                        <button class="form__save form__submit form__button-submit profilesubmitbutton" id="profilesubmitbutton" type="submit">Save</button>
                     </fieldset>
                 </form>
             </div>
@@ -74,12 +74,12 @@
         <div class="popup" id="item-form">
             <div class="popup__window">
                 <button class="popup__close-btn" id="photo-close-btn" type="button"></button>
-                <h2 class="popup__title">Новое место</h2>
+                <h2 class="popup__title">New place</h2>
                 <form class="form" name="user-info" id="new-card-form">
                     <fieldset class="form__set">
-                        <input class="form__user-info form__input" id="placename" type="text" name="placename" placeholder="Название" minlength="2" maxlength="30" required />
+                        <input class="form__user-info form__input" id="placename" type="text" name="placename" placeholder="Name" minlength="2" maxlength="30" required />
                         <span class="form__input-error placename-error" id="placename-error"></span>
-                        <input class="form__user-info form__input" id="imagelink" type="url" name="imagelink" placeholder="Ссылка на картинку" required />
+                        <input class="form__user-info form__input" id="imagelink" type="url" name="imagelink" placeholder="Image link" required />
                         <span class="form__input-error imagelink-error" id="imagelink-error"></span>
 
                         <button class="form__save form__submit form__button-submit" type="submit" id="addcardbutton">Создать</button>
@@ -98,14 +98,14 @@
 
         <div class="popup popup-profilepic">
             <div class="popup__window">
-                <h2 class="popup__title">Обновить аватар</h2>
+                <h2 class="popup__title">New avatar</h2>
                 <form class="form" name="form" id="profilepicform">
                     <fieldset class="form__set">
-                        <input type="url" name="profilepicture" id="profilepicture" class="form__input form__user-info" placeholder="Ссылка на картинку" required />
+                        <input type="url" name="profilepicture" id="profilepicture" class="form__input form__user-info" placeholder="Image link" required />
                         <span class="form__input-error profilepicture-error" id="profilepicture-error"></span>
                     </fieldset>
                     <button type="submit" class="form__save form__button-submit form__button-addpic" id="profilepicsubmitbutton">
-                        Сохранить
+                        Save
                     </button>
                 </form>
                 <button type="button" class="popup__close-btn"></button>
