@@ -14,7 +14,7 @@
 <img width="503" alt="page1" src="https://github.com/daryamakavchik/mesto-project-pair/assets/90967822/1d25e5f1-f7a2-4433-be89-77e91246ee36">
 <img width="503" alt="page2" src="https://github.com/daryamakavchik/mesto-project-pair/assets/90967822/000deb5b-e032-46cb-a18a-654e412aca62">
 
-
+</br>
 If incorrect data is entered, form sending is blocked. Popups can be closed by clicking on overlay or Escape. Changes are saved after page refresh, and in case of an unsuccessful request to the server, the user receives a corresponding error message.
 
 This project was implemented together with @yansadykov.
