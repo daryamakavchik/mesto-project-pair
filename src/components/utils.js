@@ -19,10 +19,10 @@ function closeByEscape(evt) {
 
 export function renderLoading(isLoading, someButton) {
     if (isLoading) {
-        someButton.textContent = "Сохранение...";
+        someButton.textContent = "Saving...";
     } else if (someButton === cardSubmitButton) {
-        someButton.textContent = "Создать";
+        someButton.textContent = "Add";
     } else {
-        someButton.textContent = "Сохранить";
+        someButton.textContent = "Save";
     }
 }
