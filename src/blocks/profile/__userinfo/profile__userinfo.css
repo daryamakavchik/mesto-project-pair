@@ -1,0 +1,5 @@
+.profile__userinfo{
+    display: flex;
+    flex-direction: column;
+    grid-area: b;
+}

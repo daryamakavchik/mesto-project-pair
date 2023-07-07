@@ -8,6 +8,7 @@
   background-color: Transparent;
   background-repeat: no-repeat;
   background-position: center;
+  grid-area: c;
 }
 
 .profile__edit-btn:hover {
